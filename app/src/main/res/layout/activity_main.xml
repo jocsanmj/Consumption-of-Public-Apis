@@ -41,7 +41,7 @@
         android:text="Obtener Datos"
         android:textSize="18sp"
         android:textColor="@color/terror_text"
-android:backgroundTint="@color/white"
+        android:backgroundTint="@color/white"
         android:fontFamily="serif"
         android:padding="12dp"
         android:layout_marginTop="16dp"
