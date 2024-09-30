@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="12dp"
+    android:padding="16dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="8dp"
+    android:background="@color/card_background_dark">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/title_color_terror"
+            android:layout_marginBottom="12dp"
+            android:shadowColor="#000000"
+            android:shadowRadius="2"
+            android:shadowDx="2"
+            android:shadowDy="2"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID: 666"
+                    android:textSize="14sp"
+                    android:textColor="@color/subtext_color_terror"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_marginBottom="6dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Año: 1922"
+                    android:textSize="14sp"
+                    android:textColor="@color/subtext_color_terror"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_marginBottom="6dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textHandle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Handle: dark-shadow"
+                    android:textSize="14sp"
+                    android:textColor="@color/subtext_color_terror"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_marginBottom="6dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textPages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Páginas: 320"
+                    android:textSize="14sp"
+                    android:textColor="@color/subtext_color_terror"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_marginBottom="6dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textPublisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editorial: Haunted House Publishing"
+            android:textSize="14sp"
+            android:textColor="@color/subtext_color_terror"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="6dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textISBN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ISBN: 978-0-666-12345-9"
+            android:textSize="14sp"
+            android:textColor="@color/subtext_color_terror"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="6dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
